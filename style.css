@@ -52,16 +52,16 @@ section {
   width: 100%;
   padding: 0.5rem 9%;
   
-  background: rgba(31, 36, 45, 0.85);   /* nền home màu #1f242d nhưng trong suốt */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
+  background: rgba(40, 45, 54, 0.1);   /* nền trắng trong suốt */
+  backdrop-filter: blur(10px);            /* làm mờ background phía sau */
+  -webkit-backdrop-filter: blur(10px);    /* Safari support */
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
 
-  border-bottom: none;
+  border: none; /* viền mảnh */
 }
 
 .header.sticky {
@@ -564,13 +564,12 @@ span {
   flex-wrap: wrap;
   padding: 0.6rem 9%;
 
-  background: rgba(31, 36, 45, 0.85);   /* đồng bộ với header và home */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(40, 45, 54, 0.1);   /* nền trong suốt mờ giống header */
+  backdrop-filter: blur(10px);         
+  -webkit-backdrop-filter: blur(10px); 
 
-  border-top: none;
+  border-top: none; /* đường kẻ nhẹ ở trên */
 }
-
 
 
 .footer-text p {
