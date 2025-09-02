@@ -563,9 +563,13 @@ span {
   align-items: center;
   flex-wrap: wrap;
   padding: 1rem 9%;
-  background: var(--second-bg-color);
-}
 
+  background: rgba(40, 45, 54, 0.1);   /* nền trong suốt mờ giống header */
+  backdrop-filter: blur(10px);         
+  -webkit-backdrop-filter: blur(10px); 
+
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* đường kẻ nhẹ ở trên */
+}
 .footer-text p {
   font-size: 1.1rem;
 }
