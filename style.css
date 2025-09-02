@@ -50,7 +50,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1rem 9%;
+  padding: 0.5rem 9%;
   
   background: rgba(40, 45, 54, 0.1);   /* nền trắng trong suốt */
   backdrop-filter: blur(10px);            /* làm mờ background phía sau */
@@ -562,7 +562,7 @@ span {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1rem 9%;
+  padding: 0.6rem 9%;
 
   background: rgba(40, 45, 54, 0.1);   /* nền trong suốt mờ giống header */
   backdrop-filter: blur(10px);         
@@ -570,6 +570,8 @@ span {
 
   border-top: 1px solid rgba(255, 255, 255, 0.2); /* đường kẻ nhẹ ở trên */
 }
+
+
 .footer-text p {
   font-size: 1.1rem;
 }
