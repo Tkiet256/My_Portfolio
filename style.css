@@ -37,24 +37,6 @@ body {
   color: var(--text-color);
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 200%;
-  height: 200%;
-  background-image: radial-gradient(circle, rgba(0,251,255,0.3) 2px, transparent 2px);
-  background-size: 100px 100px;
-  animation: moveStars 30s linear infinite;
-  z-index: -1;
-}
-
-@keyframes moveStars {
-  from { transform: translateY(0); }
-  to { transform: translateY(-100px); }
-}
-
-
 section {
   min-height: 100vh;
   min-width: 100%;
